@@ -1,0 +1,6 @@
+﻿  TpTemps.cpp
+  Temps.cpp
+  Generating Code...
+c:\users\pc\desktop\emsi s1\poo c++\c++ home testing\tptemps\tptemps\temps.cpp(133): warning C4715: 'Temps::CompareTo': not all control paths return a value
+  TpTemps.vcxproj -> C:\Users\pc\Desktop\Emsi S1\Poo C++\C++ Home Testing\TpTemps\Debug\TpTemps.exe
+  TpTemps.vcxproj -> C:\Users\pc\Desktop\Emsi S1\Poo C++\C++ Home Testing\TpTemps\Debug\TpTemps.pdb (Full PDB)
