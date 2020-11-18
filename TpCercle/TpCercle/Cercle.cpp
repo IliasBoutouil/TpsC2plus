@@ -32,11 +32,11 @@ bool Cercle::operator==(Cercle C)
 	return this->rayon==C.rayon && this->centre==C.centre;
 }
 
-bool Cercle::CheckAppartenance(Point P)
+bool Cercle::CheckAppartenance(Point p)
 {
-	if((this->centre.get_x() - this->rayon)<=P.get_x() && (this->centre.get_x() + this->rayon)>= P.get_x() && (this->centre.get_y() - this->rayon) <= P.get_y() && (this->centre.get_y() + this->rayon) >= P.get_y())
-	return true;
-	else 
+
+	if (pow(this->centre.get_x() - p.get_x(), 2) + pow(this->centre.get_y() - p.get_y(), 2) == pow(this->rayon, 2))
+		return true;
 	return false;
 }
 

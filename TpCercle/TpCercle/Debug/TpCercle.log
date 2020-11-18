@@ -1,3 +1,7 @@
-﻿  Point.cpp
+﻿  stdafx.cpp
+  TpCercle.cpp
+  Point.cpp
+  Cercle.cpp
+  Generating Code...
   TpCercle.vcxproj -> C:\Users\pc\Desktop\Emsi S1\Poo C++\C++ Home Testing\TpCercle\Debug\TpCercle.exe
   TpCercle.vcxproj -> C:\Users\pc\Desktop\Emsi S1\Poo C++\C++ Home Testing\TpCercle\Debug\TpCercle.pdb (Full PDB)

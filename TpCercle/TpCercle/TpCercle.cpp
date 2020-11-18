@@ -12,13 +12,14 @@ int main()
 	Point P2 = Point::Creator(-2, 4);*/
 	Point P = Point(3, 4);
 	Point P2 = Point(-2, 4);
+	Point P3 = Point(7, 4);
 	Cercle C(P, 4);
 	Cercle C2(P, 5);
 	C.Afficher();
 	cout << " Surface = " << C.CalSurface() << endl;
 	cout << " Perimetre = " << C.CalPerimetre() << endl;
 	cout << " Test Degalite = " << (C == C2) << endl;
-	cout << " Test d'appartenance du point = " << C.CheckAppartenance(P2) << endl;
+	cout << " Test d'appartenance du point = " << C.CheckAppartenance(P3) << endl;
 	getchar();
     return 0;
 }
